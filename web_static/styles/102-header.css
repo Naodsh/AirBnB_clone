@@ -1,0 +1,19 @@
+/* styles/102-header.css */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    background-image: url('images/logo.png');
+    background-size: contain;
+    height: 40px;
+    width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 120px;
+    }
+}
